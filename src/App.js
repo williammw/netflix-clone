@@ -1,5 +1,5 @@
 import React from 'react';
-import { Counter } from './features/counter/Counter';
+import { Counter } from './features/Counter';
 import './App.css';
 import Row from './Row';
 import requests from './requests'
