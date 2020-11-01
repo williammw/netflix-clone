@@ -1,5 +1,16 @@
+.row{
+  margin-left:20px;
+}
+/* good trick */
 .row__posters{
   display:flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding:20px;
+}
+
+.row__posters::-webkit-scrollbar{
+  display: none;
 }
 .row__poster{
   object-fit:contain;
@@ -16,3 +27,13 @@
   /* color: #fff; */
   margin-left: 20px;
 }
+
+.row__posterLager{
+  max-height: 250px;
+}
+
+.row__posterLager:hover{
+  transform: scale(1.1); 
+  opacity: 1;
+}
+/* end of good trick */
